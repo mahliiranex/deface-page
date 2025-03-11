@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hacked By Mahliiranex</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            font-size: 4em;
+            margin-top: 20%;
+            animation: glitch 1s infinite;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px red; }
+            25% { text-shadow: -2px -2px lime; }
+            50% { text-shadow: 2px -2px blue; }
+            75% { text-shadow: -2px 2px yellow; }
+            100% { text-shadow: 2px 2px red; }
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>HACKED BY MAHLIIRANEX</h1>
+    <p>You have been owned!</p>
+    <p>Contact me on Telegram: <b>@ماهلی</b></p>
+
+    <audio autoplay loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        let i = 0;
+        const title = "💀 HACKED BY ایران اکس 💀";
+        function changeTitle() {
+            document.title = title.substring(0, i++);
+            if (i > title.length) i = 0;
+        }
+        setInterval(changeTitle, 200);
+        
+        setTimeout(() => {
+            alert("⚠ SYSTEM ERROR: YOU HAVE BEEN HACKED!");
+        }, 3000);
+    </script>
+</body>
+</html>
